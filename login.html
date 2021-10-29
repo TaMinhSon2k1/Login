@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login UT-Lap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Đăng nhập</h1>
+        <form action="login.php" method="post">
+            <div class="txt_field">
+                <input type="text" name="usernameAccount" required>
+                <span></span>
+                <label>Tên tài khoản</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="passwordAccount" required>
+                <span></span>
+                <label>Mật khẩu</label>
+            </div>
+            <input type="submit" value="Đăng nhập">
+            <div class="signup_link">
+                Bạn chưa có tài khoản? <a href="signup.html">Đăng kí</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up UT-Lap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Đăng kí</h1>
+        <form action="signup.php" method="post">
+            <div class="txt_field">
+                <input type="text" name="usernameAccount" required>
+                <span></span>
+                <label>Tên tài khoản</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="passwordAccount" required>
+                <span></span>
+                <label>Mật khẩu</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="confirmPasswordAccount" required>
+                <span></span>
+                <label>Xác nhận mật khẩu</label>
+            </div>
+            <div class="is_admin">
+                Bạn có phải Admin? 
+                <input type='hidden' name='adminAccount' value='false'>
+                <input type="checkbox" name="adminAccount" value='true'>
+            </div>
+            <input type="submit" value="Hoàn thành đăng kí">
+            <div class="signup_link">
+                Bạn đã có tài khoản <a href="login.html">Đăng nhập</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

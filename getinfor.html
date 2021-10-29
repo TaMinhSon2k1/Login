@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get your infor</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input[type='submit']{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Nhập thông tin</h1>
+        <form action="getinfor.php" method="post">
+            <div class="txt_field">
+                <input type="text" name="firstname" required>
+                <span></span>
+                <label>Tên</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="lastname" required>
+                <span></span>
+                <label>Họ</label>
+            </div>
+            <div class="txt_field">
+                <input type="email" name="email" required>
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="tel" name="phone" required>
+                <span></span>
+                <label>Số điện thoại</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="address" required>
+                <span></span>
+                <label>Địa chỉ</label>
+            </div>
+            <input type="submit" value="Hoàn thành thông tin">
+        </form>
+    </div>
+</body>
+</html>
